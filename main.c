@@ -23,13 +23,13 @@ int main(int argc, char** argv)
   {
   if (argc < 3)
     {
-    printf("Usage: binary_to_c <input.bin> <output.c>\n");
+    printf("Usage: binary2c <input.bin> <output.c>\n");
     return -1;
     }
   FILE* in = fopen(argv[1], "rb");
   if (!in)
     {
-    printf("Usage: binary_to_c <input.bin> <output.c>\n");
+    printf("Usage: binary2c <input.bin> <output.c>\n");
     printf("The input file %s is invalid\n", argv[1]);
     return -1;
     }
@@ -37,7 +37,7 @@ int main(int argc, char** argv)
   if (!out)
     {
     fclose(in);
-    printf("Usage: binary_to_c <input.bin> <output.c>\n");
+    printf("Usage: binary2c <input.bin> <output.c>\n");
     printf("The output file %s cannot be opened\n", argv[2]);
     return -1;
     }
