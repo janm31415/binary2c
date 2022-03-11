@@ -99,16 +99,31 @@ int main(int argc, char** argv)
   header[5] = 'c';
   header[6] = ' ';
   header[7] = 'c';
-  header[8] = 'h';
-  header[9] = 'a';
-  header[10] = 'r';
-  header[11] = ' ';
-  header[12] = 'a';
-  header[13] = 'r';
-  header[14] = 'r';
-  header[15] = '[';
+  header[8] = 'o';
+  header[9] = 'n';
+  header[10] = 's';
+  header[11] = 't';
+  header[12] = ' ';
+  header[13] = 'u';
+  header[14] = 'n';
+  header[15] = 's';
+  header[16] = 'i';
+  header[17] = 'g';
+  header[18] = 'n';
+  header[19] = 'e';
+  header[20] = 'd';
+  header[21] = ' ';
+  header[22] = 'c';
+  header[23] = 'h';
+  header[24] = 'a';
+  header[25] = 'r';
+  header[26] = ' ';
+  header[27] = 'a';
+  header[28] = 'r';
+  header[29] = 'r';
+  header[30] = '[';
 
-  int next_index = 16;
+  int next_index = 31;
   int first_nonzero_digit_encountered = 0;
   for (int j = 9; j >= 0; --j)
     {
